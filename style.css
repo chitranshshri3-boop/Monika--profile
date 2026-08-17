@@ -1,0 +1,269 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+html,
+
+body {
+
+  margin: 0;
+
+  min-height: 100%;
+
+}
+
+body {
+
+  min-height: 100vh;
+
+  padding: 24px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-family:
+
+    Arial,
+
+    Helvetica,
+
+    sans-serif;
+
+  color: #ffffff;
+
+  background:
+
+    radial-gradient(
+
+      circle at top,
+
+      #142238 0%,
+
+      #080b10 45%,
+
+      #05070a 100%
+
+    );
+
+}
+
+.profile-card {
+
+  width: 100%;
+
+  max-width: 460px;
+
+  padding: 30px;
+
+  background:
+
+    linear-gradient(
+
+      145deg,
+
+      #111a26,
+
+      #080c12
+
+    );
+
+  border: 1px solid #293b50;
+
+  border-radius: 24px;
+
+  box-shadow:
+
+    0 25px 70px rgba(0, 0, 0, 0.55);
+
+  overflow: hidden;
+
+}
+
+.badge {
+
+  display: inline-block;
+
+  padding: 7px 13px;
+
+  color: #49a8ff;
+
+  border: 1px solid #49a8ff;
+
+  border-radius: 999px;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 1.2px;
+
+}
+
+h1 {
+
+  margin: 20px 0 5px;
+
+  font-size: 36px;
+
+  line-height: 1.1;
+
+}
+
+.course {
+
+  margin: 0 0 26px;
+
+  color: #49a8ff;
+
+  font-size: 15px;
+
+  line-height: 1.5;
+
+}
+
+.details {
+
+  border-top: 1px solid #273544;
+
+}
+
+.detail {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #273544;
+
+}
+
+.detail span {
+
+  color: #91a0b1;
+
+  font-size: 14px;
+
+}
+
+.detail strong {
+
+  max-width: 62%;
+
+  text-align: right;
+
+  font-size: 14px;
+
+  line-height: 1.4;
+
+  overflow-wrap: anywhere;
+
+}
+
+.instagram {
+
+  display: block;
+
+  margin-top: 22px;
+
+  padding: 13px 18px;
+
+  color: #ffffff;
+
+  background: #1687e8;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  transition:
+
+    transform 0.2s ease,
+
+    opacity 0.2s ease;
+
+}
+
+.instagram:hover {
+
+  transform: translateY(-2px);
+
+  opacity: 0.9;
+
+}
+
+.notice {
+
+  margin-top: 20px;
+
+  padding: 13px;
+
+  color: #e8d47c;
+
+  background: #211d0e;
+
+  border: 1px solid #665b28;
+
+  border-radius: 10px;
+
+  font-size: 11px;
+
+  line-height: 1.55;
+
+}
+
+.notice strong {
+
+  color: #f2da76;
+
+}
+
+@media (max-width: 480px) {
+
+  body {
+
+    padding: 14px;
+
+  }
+
+  .profile-card {
+
+    padding: 22px;
+
+    border-radius: 20px;
+
+  }
+
+  h1 {
+
+    font-size: 30px;
+
+  }
+
+  .detail {
+
+    gap: 12px;
+
+  }
+
+  .detail strong {
+
+    max-width: 58%;
+
+  }
+
+}
